@@ -24,6 +24,9 @@ int main()
         s += std::to_string(digit*digit);
         std::cout << "square-list:" << s << std::endl;
     }
+    
+    int final = std::stoi(s);
+    std::cout << "result:" << final << std::endl;
 
     return 0;
 }
